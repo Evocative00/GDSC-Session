@@ -1,0 +1,41 @@
+#1번
+lang = 'python'
+print(lang[0], lang[2])
+
+#2번
+license_plate = "24가 2210"
+print(license_plate[-4:])
+
+#3번
+string = "홀짝홀짝홀짝"
+print(string[::2])
+
+#4번
+string = "PYTHON"
+print(string[::-1])
+
+#5번
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace('-', '')
+print(phone_number1)
+
+#6번
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace('-', '')
+print(phone_number1)
+
+#7번
+url = "http://sharebook.kr"
+url_split = url.split('.')
+print(url_split[-1])
+
+#8번
+안됌
+
+#9번
+string = 'abcdfe2a354a32a'
+string = string.replace('a', 'A')
+print(string)
+
+#10번
+abcd
